@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 280px;
+  height: 100%;
+  background: #000428;
+  padding: 30px 0;
+}
+
+.avatar {
+  display: block;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  position: relative;
+  top: 10px;
+}
+
+.avatar-header {
+  background-color: #004e92;
+  margin-top: -30px;
+  height: 210px;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.wrapper .sidebar ul li a {
+  color: #9fcefe;
+  display: block;
+  font-weight: bold;
+}
+
+.wrapper .sidebar ul li:hover {
+  background: #0c1457;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-top: 8px;
+  padding: 2px;
+  margin-left: 2px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #92c8fd;
+  padding: 10px;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#home {
+  width: 100%;
+  margin-left: 300px;
+}
+
+#home .logo {
+  margin: 10px;
+  padding: 20px;
+  float: right;
+}
+
+.header {
+  width: 220px;
+  margin: 100px;
+  display: block;
+}
+
+.header-img img {
+  position: absolute;
+  top: 0%;
+  right: 12%;
+  height: 450px;
+  width: 450px;
+}
+
+.info .info-btn {
+  text-align: center;
+  color: #18148b;
+  background-color: #c4e1ff;
+  width: 150px;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.h1 {
+  color: #18148b;
+  font-weight: lighter;
+}
+
+.heading {
+  color: gray;
+}
+
+.box {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.form-box {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #c4e1ff;
+  width: 750px;
+  margin-bottom: 20px;
+}
+
+.form-box input {
+  font-size: 18px;
+  color: #000;
+  padding: 7px 7px;
+  border: none;
+  background-color: #c4e1ff;
+  width: 470px;
+}
+
+.form-box button {
+  background-color: #fff;
+  color: #18148b;
+  font-size: 18px;
+  padding: 7px 7px;
+  height: 40px;
+  border-radius: 10px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  margin: 20px;
+}
+
+#technical-skills {
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5px;
+
+}
+
+.bar {
+  width: 230px;
+  height: 10px;
+  background-color: #000428;
+  border-radius: 10px;
+}
+
+.bar-1 {
+  width: 75%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-2 {
+  width: 50%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-3 {
+  width: 78%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-4 {
+  width: 60%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-5 {
+  width: 85%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-6 {
+  width: 90%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-7 {
+  width: 84%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-8 {
+  width: 76%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+.bar-9 {
+  width: 89%;
+  height: 10px;
+  background-color: #9fcefe;
+  border-radius: 10px;
+}
+
+#internships {
+  margin: 20px;
+  
+}
+
+#internships img{
+  height: 60px;
+  width: 120px;
+}
+
+.internship-items{
+  display: inline-block;
+  width: 310px;
+  margin-left: 10px;
+}
+
+.internship-content li{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.internship-items h4{
+  float: right;
+  margin-top: -30px;
+}
+
+.item1{
+  display: block;
+  width: 100%;
+  font-size: smaller;
+  
+}
+
+.item2{
+  display: block;
+  width: 100%;
+  font-size: smaller;
+}
+
+
+.internship-content{
+  color: #fff;
+  background-color: #000428;
+  border-radius: 10px;
+  padding-left: 25px;
+  width: 300px;
+}
+
+#projects {
+  margin: 20px;
+}
+
+#projects p{
+  padding: 10px;
+}
+
+#projects h3{
+  margin-top: 5px;
+}
+
+#projects hr{
+  margin-bottom: 5px;
+}
+
+#projects img {
+  height: 160px;
+  width: 160px;
+  margin: 20px;
+}
+
+#education {
+  margin: 20px;
+}
+
+.degree{
+  margin: 10px;
+}
+
+.junior{
+  margin: 10px;
+}
+.ssc{
+  margin: 10px;
+}
+#education h4{
+  color: #18148B;
+  font-weight: 100;
+  padding: 2px;
+}
+
+#education h5{
+  color: #72b7fc;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+#hobbies {
+  margin: 20px;
+}
+.hobby-items{
+  
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#hobbies img {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+
+.footer {
+  background-color: #0c1457;
+  text-align: center;
+  color: #fff;
+}
